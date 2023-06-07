@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habercin</title>
+    <link rel="stylesheet" href="sayfa-ilk.css" />
+    <style>
+      .form {
+        text-align: center;
+        margin-top: 90px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #f5eddc">
+    <header class="main-header">
+      <a href="abone-ol.html" id="logo-isim">HABERCİN - Abone Ol</a>
+      <nav class="main-nav">
+        <a href="ana-sayfa.html">Anasayfa</a>
+        <a href="son-dakika.html">Sondakika</a>
+        <a href="spor.html">Spor</a>
+        <a href="dunya.html">Dünya</a>
+        <a href="teknoloji.html">Teknoloji</a>
+        <a href="ekonomi.html">Ekonomi</a>
+      </nav>
+      <a href="abone-ol.html" class="abone">Abone ol</a>
+      <marquee
+        behavior="scroll"
+        direction="left"
+        scrollamount="15"
+        style="background-color: white; color: red; margin-top: 16px"
+        >En güncel haber sitesi " HABERCİN "
+      </marquee>
+    </header>
+    <main>
+      <header class="form">
+        <h1>Lütfen bilgileriş eksiksiz doldurunuz</h1>
+        <hr />
+      </header>
+      <section style="margin: 0 500px 0">
+        <h2>Hesap bilgileriniz</h2>
+        <table>
+          <tr>
+            <td style="width: 120px">
+              <label for="kullanıcıadı">Kullanıcı Adı :</label>
+            </td>
+            <td style="width: 50px"></td>
+            <td>
+              <input type="text" id="kullanıcıadı" placeholder="Kullanıcıadı" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="eposta">E-posta :</label></td>
+            <td></td>
+            <td><input type="email" id="eposta" placeholder="E-posta" /></td>
+          </tr>
+          <tr>
+            <td><label for="parola">Parola :</label></td>
+            <td></td>
+            <td><input type="password" id="parola" placeholder="Parola" /></td>
+          </tr>
+        </table>
+        <h2>Kişisel Bilgileriniz</h2>
+        <table>
+          <tr>
+            <td style="width: 120px"><label for="name">Adınız :</label></td>
+            <td style="width: 50px"></td>
+            <td>
+              <input type="text" id="name" placeholder="ismizizi girin" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="surname">Soyadınız :</label></td>
+            <td></td>
+            <td>
+              <input type="text" id="surname" placeholder="Soyadınızı girin" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="city">Şehir</label></td>
+            <td></td>
+            <td>
+              <select id="city">
+                <option>Seçiniz</option>
+                <option>Antalya</option>
+                <option>Urfa</option>
+                <option>İstanbul</option>
+                <option>Ankara</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="cinsiyet">Cinsiyet</label></td>
+            <td></td>
+            <td>
+              <input type="radio" name="cins" /> erkek
+              <input type="radio" name="cins" /> kız
+            </td>
+          </tr>
+          <tr>
+            <td><label for="hobi">HOBİLERİNİZ :</label></td>
+            <td></td>
+            <td>
+              <input type="checkbox" />okumak <input type="checkbox" />yürümek
+              <input type="checkbox" />yüzmek <input type="checkbox" />yazmak
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td><button type="submit">Abone ol</button></td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer>© 2023 Tüm hakları saklıdır</footer>
+  </body>
+</html>

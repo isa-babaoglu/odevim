@@ -1,0 +1,36 @@
+.card {
+  background: #e9e8e8;
+  padding: 16px;
+  text-align: center;
+  margin: 4px;
+  width: 30%;
+  height: 350px;
+  float: left;
+  box-shadow: 5px 5px 25 px black;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  margin: 30px auto;
+  padding-top: 40px;
+  width: 1000px;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+}
+section a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+}
